@@ -1,0 +1,43 @@
+.container{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list-group-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 0px!important;    
+}
+.container>.card{
+    margin: 12px;
+    border-radius: 0px!important;    
+}
+.name-basic{
+    background-color: black;
+    color: white;
+    height: 85px;
+}
+.name-pro{
+    background-color: #53b050;
+    color: white;
+    height: 85px;
+}
+.name-premium{
+    background-color: black;
+    color: white;
+    height: 85px;
+}
+.price{
+    background-color: #eeeeee;
+    height: 70px;
+}
+.button{
+    background-color: #eeeeee;
+}
+.btn{
+    border-radius: 0px;
+    font-weight: bold;
+}
